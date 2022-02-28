@@ -1,0 +1,1489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Akira Expanded Demo';
+    src: url(assets/fonts/Akira\ Expanded\ Demo.otf);
+
+}
+
+@font-face {
+    font-family: 'ZingScriptRust';
+    src: url(assets/fonts/ZingScriptRustSBDemo-Base.otf);
+
+}
+
+
+body {
+    background-color: #050016;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.fa-bars {
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white !important;
+    border: none !important;
+    font-weight: 600 !important;
+}
+
+
+
+/* .navbar-nav .nav-item{
+    padding: 0 10px   !important;
+}
+.navbar-nav{
+    padding: 0 30px   !important;
+
+} */
+/* .ak_nav_left .nav-link{
+    padding: 0 20px   !important;
+
+
+} */
+
+/* .ak_nav_right .nav-link{
+    padding: 0 20px   !important;
+
+
+} */
+/* .ak_nav_left .nav-item{
+    padding: 0 10px; 
+}
+.ak_nav_right .nav-item{
+    padding: 0 10px; 
+} */
+
+.navbar-nav .nav-item .nav-link {
+    /* padding: 0 15px; */
+}
+
+.navbar-brand {
+    padding: 0 10px !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.btn_nav {
+    background-color: #de068d;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.ak_bghero {
+
+    background-image: url(assets/images/ak_body_bg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+/* HEro Section */
+
+.ak_hero_content {
+    padding: 100px 0;
+
+}
+
+
+.ak_text_zing {
+    font-family: ZingScriptRust;
+    color: #e0018c;
+}
+
+.ak_text_akira {
+    font-family: Akira Expanded Demo;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
+}
+
+.ak_text_akira_span {
+    font-family: Akira Expanded Demo;
+    font-size: 60px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
+    display: inline-block;
+    -webkit-transform: scale(2, 1);
+    /* Safari and Chrome */
+
+
+}
+
+.ak_text_akira1 {
+    font-family: Akira Expanded Demo;
+    font-size: 60px;
+    color: white;
+    line-height: 18px;
+}
+
+.ak_text_hero3 {
+    color: #5B5867;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.ak_text_hero_liq {
+    color: #5B5867;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 30px;
+    font-size: 13px;
+    width: 40%;
+    line-height: 25px;
+}
+
+/* Token Section */
+
+.btn_token_sec1 {
+
+    background-color: #de068d;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.ak_token_stack {
+    padding-top: 100px;
+
+}
+
+.ak_token_heading {
+    font-family: Akira Expanded Demo;
+    font-size: 40px;
+    color: white;
+
+}
+
+.ak_token_para {
+    font-family: "Poppins";
+    color: #5B5867;
+    font-size: 13px;
+    width: 85%;
+    line-height: 25px;
+
+}
+
+/* Stats Section */
+
+.card_1 {
+    background-color: #110327;
+    width: 340px;
+    min-height: 400px;
+    border-radius: 20px;
+}
+
+.card_1 img {
+    width: 60px;
+}
+
+.ak_stats_sec {
+    padding-top: 80px;
+}
+
+.ak_stats_head {
+    font-family: Akira Expanded Demo;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.ak_stats_content {
+    padding-top: 50px;
+}
+
+.ak_stats_icon_text_1 {
+    font-family: Akira Expanded Demo;
+    font-size: 20px;
+    padding-top: 40px;
+    letter-spacing: 2px;
+
+}
+
+.ak_stats_biticon_text_1 {
+    font-family: Akira Expanded Demo;
+    font-size: 20px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+
+}
+
+.ak_stats_biticon_text_2 {
+    width: 80%;
+    font-family: "Poppins";
+    color: #5B5867;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ak_stats_icon_text_2 {
+
+    font-family: "Poppins";
+    color: #5B5867;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+/* footer Section */
+
+.ak_footer_sec {
+    padding-top: 50px;
+    background: transparent !important;
+}
+
+.fa-telegram {
+    color: #e0018c;
+    font-size: 30px;
+}
+
+.fa-twitter {
+
+    color: #656975;
+    font-size: 30px;
+    border-radius: 50px !important;
+
+
+
+
+}
+
+
+.ak_footer_text {
+    color: #656975;
+    font-size: 14px;
+    width: 50%;
+
+}
+
+.ak_footer_sec1 {
+    padding-top: 20px;
+}
+
+.ak_footer_sec2 {
+    padding-top: 20px;
+}
+
+.ak_footer_sec3 {
+    border-top: 1px solid #656975;
+    font-size: 15px;
+    color: white;
+}
+
+
+/* SWAP SECTION */
+
+.ak_swap_dropdown_input {
+    background-color: #2A1546;
+    border-radius: 10px;
+    border: 1px solid #ABA3B7;
+    height: 35px;
+    width: 180px;
+    color: white;
+}
+
+.dropdown-menu.show {
+    background-color: #1e0b36;
+    color: #656975;
+    width: 240px !important;
+    min-height: 130px;
+    border-radius: 10px;
+
+}
+
+.ak_swap_input_1 {
+    background-color: #1e0b36 !important;
+    border: 2px solid #ABA3B7;
+}
+
+.ak_swap_input_1:checked {
+    background-color: #1e0b36 !important;
+    border-color: #ABA3B7 !important;
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: url(assets/images/ak_icon_button.png) !important;
+
+}
+
+.form-switch .form-check-input:checked {
+    background-image: url(assets/images/ak_icon_button.png) !important;
+}
+
+.ak_swap_input_11 {
+    background-color: white !important;
+    /* background-position: top left   !important; */
+
+
+}
+
+.ak_swap_dropdown_input_btn {
+    background-color: #de068d;
+    width: 40% !important;
+    border: none;
+    height: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.ak_swap_dropdown_input_btn a {
+    color: white;
+
+
+}
+
+.ak_swap_dropdown_input::placeholder {
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+
+.ak_text_hero4 {
+    color: #5B5867;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+    width: 35% !important;
+
+}
+
+.ak_swap_hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ak_swap_heading {
+
+    font-family: Akira Expanded Demo;
+    font-size: 35x;
+    color: white;
+    text-align: center;
+
+}
+
+canvas {
+    background-color: red;
+
+}
+
+/* .ak_swap_canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.ak_swap_iconimg1{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} */
+.ak_swap_iconimg1 img {
+    /* margin-top: 10px; */
+}
+
+/* .ak_swap_iconimg1 img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+/* 
+.ak_swap_icontext1{
+    padding-left: 70px;
+    color: white;
+    padding-top: 50px;
+} */
+
+.ak_swap_icontext1 h4 {
+    font-family: Akira Expanded Demo;
+    font-size: 17px;
+    color: white;
+
+}
+
+.ak_swap_icontext1 {
+    padding-top: 20px;
+}
+
+.ak_swap_icontext1 p {
+    font-family: "Poppins";
+    font-size: 13px;
+    color: #656975;
+}
+
+.ak_buystack_text1 {
+    font-family: Akira Expanded Demo;
+    font-size: 17px;
+    color: white;
+}
+
+.ak_buystack_text2 {
+    font-family: Akira Expanded Demo;
+    font-size: 17px;
+    color: white;
+    padding-top: 50px;
+}
+
+.ak_buystack_text3 {
+    font-family: "Poppins";
+    font-size: 17px;
+    color: #656975;
+    padding-top: 50px;
+    width: 100% !important;
+
+}
+
+.ak_buy_tool {
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #1e0b3696;
+}
+
+.ak_buy_tool_text {
+    color: #656975;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ak_buystack_div {
+    background-color: #11032562;
+    border-radius: 10px;
+    padding: 0 50px !important;
+}
+
+
+
+.ak_but_minmax {
+    font-size: 10px !important;
+    color: #656975;
+    font-weight: 300 !important;
+}
+
+.btn_buy_custom {
+    background-color: #de068d;
+    width: 100%;
+    min-height: 45px;
+    font-family: "Poppins";
+    color: white;
+    font-weight: 600 !important;
+
+}
+
+
+.ak_stakertoken_section {
+    padding-top: 100px;
+}
+
+.form-check-input {
+
+    font-size: 20px;
+    background-color: white;
+    color: #e0018c;
+
+}
+
+.form-switch {}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.ak_buy_width {
+    /* width: 85%; */
+}
+
+/* .graph{
+     max-width: 750px !important;
+    min-height: 400px !important;
+} */
+
+.mn_token_price_heading {
+    font-family: Akira Expanded Demo;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.mn_token_price_graph {
+    padding-top: 50px;
+}
+
+.ak_buy_text1 {
+    font-family: Akira Expanded Demo;
+    font-size: 20px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px !important;
+}
+
+.ak_buy_text2 {
+    font-family: Akira Expanded Demo;
+    font-size: 14px;
+    color: white;
+    padding-top: 30px;
+
+}
+
+.ak_buy_text3 {
+    font-size: 15px;
+    color: #656975;
+    padding-top: 30px;
+    padding-right: 35px;
+    font-weight: 400;
+
+
+
+}
+
+.card-body input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.ak_buy_text4 {
+    padding-left: 20px;
+    font-size: 17px;
+    color: #656975;
+    font-weight: 300;
+
+
+}
+
+.ak_buy_image_set img {
+    padding-right: 40px;
+}
+
+.ak_buy_span_span {
+    color: white;
+    padding-right: 20px !important;
+}
+
+.ak_buy_text5 {
+    color: #656975;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 440px) and (max-width: 990px) {
+    .ak_swap_dropdown_input_btn1 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .ak_swap_dropdown_input1 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .ak_swap_dropdown_input_btn {
+        width: 90% !important;
+        margin-top: 10px !important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .ak_aboutsection_para {
+        width: 100% !important;
+    }
+
+    .ak_swapicon_image1 {
+        padding-right: 20px;
+    }
+
+    .ak_swapicon_image2 {
+        padding-right: 30px !important;
+    }
+
+    .ak_swap_icontextmob1 {
+        padding-right: 60px;
+    }
+
+    .ak_swap_icontextmob2 {
+        padding-right: 140px;
+    }
+
+    .ak_swapicon3_image {
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .ak_swap_dropdown_input_btn1 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+    .ak_swap_dropdown_input1 {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .ak_swap_dropdown_input_btn {
+        width: 90% !important;
+        margin-top: 10px !important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+
+    }
+
+    .ak_stats_para {
+        width: 100% !important;
+    }
+
+    .ak_liq_one {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .ak_walletbg_text_new p {
+        font-size: 14px !important;
+        font-weight: 400;
+    }
+
+    .ak_nav_pills {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .ak_stackcard4_text3 {
+        text-align: center;
+    }
+
+    .ak_table_card1 {}
+
+    .ak_table_card2 {
+        float: left !important;
+    }
+
+    .ak_aboutsection_para {
+        text-align: center !important;
+    }
+
+    .ak_aboutsection_para {
+        width: 100% !important;
+    }
+
+    .ak_text_hero4 {
+        width: 100% !important;
+    }
+
+    .ak_buy_text3 {
+        font-size: 14px;
+        padding: 20px 10px;
+        font-weight: 300;
+    }
+
+    .ak_buy_text2 {
+        font-size: 14px;
+        padding: 0 !important;
+    }
+
+    .ak_swapicon_image1 {
+        padding-left: 20px;
+    }
+
+    .ak_swapicon_image2 {
+        /* padding-right: 30px !important; */
+        padding: 0 20px !important;
+    }
+
+    .ak_swap_icontextmob1 {
+        padding-left: 25px;
+    }
+
+    .ak_swap_icontextmob2 {
+        padding-right: 50px !important;
+    }
+
+    .ak_swap_icontextmob1 h4 {
+        font-size: 14px !important;
+    }
+
+    .ak_swap_icontextmob2 h4 {
+        font-size: 14px !important;
+    }
+
+    .ak_swap_icontextmob3 h4 {
+        font-size: 14px !important;
+    }
+
+    .ak_swapicon3_image {
+        height: 100px !important;
+        width: 100px !important;
+    }
+
+    .nav-link {
+        padding: 10px !important;
+        text-align: center;
+    }
+
+    .ak_btn_mob {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ak_text_akira {
+        font-size: 40px;
+
+    }
+
+    .ak_text_akira_span {
+        font-size: 40px;
+
+
+
+    }
+
+    .ak_text_akira1 {
+        font-size: 40px;
+
+    }
+
+    .ak_token_heading {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .ak_token_para {
+        text-align: center;
+        width: 100% !important;
+        padding-top: 10px;
+    }
+
+    .btn_token_sec1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ak_toke_image_mob {
+        margin-top: 30px;
+    }
+
+    .ak_footer_text {
+        width: 100%;
+    }
+
+    .ak_toke_image_mob img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.card_2 {
+    background-color: #0f0d225b !important;
+
+}
+
+.bg-opacity {
+    background-color: #1e0b369c !important;
+    height: 60px;
+    border-radius: 10px;
+    width: 95%;
+
+}
+
+.btn_custom_swap1 {
+    width: 100%;
+    background-color: #e0018c;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    margin-top: 73px !important;
+}
+
+.btn_custom_swap2 {
+    width: 100%;
+    background-color: #e0018c;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px !important;
+}
+
+.btn_custom_swap2 a {
+    width: 100%;
+    background-color: #e0018c;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.btn_custom_swap1 a {
+    width: 100%;
+    background-color: #e0018c;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.ak_swapicon2 {
+    height: 50px;
+    width: 50px;
+}
+
+.ak_swapicon_image2 {
+
+    padding: 0 40px;
+
+
+}
+
+
+/* Stack Section */
+
+.ak_walletbg {
+    background-image: url(assets/images/ak_wallet_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    width: 100%;
+    height: 250px;
+
+}
+
+.ak_stack_card1 {
+    /* max-width:  417px; */
+    width: 100%;
+    background-color: #1e0b368e;
+    min-height: 574px;
+    border-radius: 20px;
+}
+
+.ak_stack_card2 {
+    background-color: #1e0b368e;
+    border-radius: 20px;
+    min-height: 352px;
+    /* max-width: 495px; */
+    width: 100%;
+}
+
+/* .ak_stackcard2_img{
+    padding-top: 90px;
+} */
+.ak_graph_textbg {
+    background-color: #1e0b36;
+    height: 50px;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.ak_graph_textbg2 {
+    background-color: #1e0b36;
+    height: 50px;
+    width: 210px;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+
+.ak_graph_textbg3 {
+    background-color: #1e0b36;
+    height: 50px;
+    width: 210px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.ak_graph_textbg4 {
+    background-color: #1e0b36;
+    height: 50px;
+    width: 210px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+
+
+}
+
+
+.ak_walletbg_text p {
+    font-size: 14px;
+    color: #656975;
+    font-family: "Poppins";
+
+}
+
+.ak_walletbg_text h2 {
+    font-size: 30px;
+    color: white;
+    font-family: Akira Expanded Demo;
+    line-height: 10px;
+    letter-spacing: 2px;
+
+}
+
+.ak_walletbg_text {
+    padding-top: 80px;
+}
+
+.ak_stack_locked_1 {
+    font-size: 14px;
+    padding-left: 18px;
+    color: #656975;
+}
+
+.ak_stack_locked_2 {
+    font-size: 14px;
+    color: #2F2442 !important;
+}
+
+.ak_stacklocked {
+    padding: 0 !important;
+    text-align: center;
+}
+
+/* .ak_wallet_sec1{
+    max-height: 200px;
+}
+.ak_wallet_sec2{
+    max-height: 100px;
+} */
+.ak_stack_card11 {
+    /* max-width:  417px; */
+    width: 100%;
+    background-color: #1e0b368e;
+    /* height: 574px; */
+    border-radius: 20px;
+}
+
+.ak_walletbg_text_new h4 {
+
+    font-size: 17px;
+    color: white;
+
+}
+
+.ak_walletbg_text_new p {
+
+    font-size: 18px;
+    color: #2F2442;
+    background-color: #1e0b36;
+    min-height: 50px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    text-align: start;
+    border-radius: 10px;
+}
+
+.ak_stackcard4_text {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+}
+
+.ak_stackcard4_text2 {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+}
+
+.ak_stackcard4_text2_stack3 {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.ak_stackcard4_text3 {
+    color: #656975;
+    font-size: 14px;
+
+
+}
+
+.ak_stack4_div {
+    background-color: #1e0b36;
+    margin-top: 10px;
+    min-height: 60px !important;
+    border-radius: 10px;
+
+
+
+}
+
+.ak_stack4_divtext1 {
+    color: white;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.ak_stack4_divtext2 {
+    color: white;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.ak_stack4_divtext3 {
+    font-size: 14px;
+    color: #656975;
+
+}
+
+.ak_stack4div3 {
+    margin-top: 30px;
+}
+
+.ak_stack4div_btn button {
+    background-color: #de068d;
+    min-height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.ak_bullet {
+    margin-right: 40px;
+}
+
+.ak_table_btn1 {
+    background-color: #de068d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.ak_table_btn1 a {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ak_table_card {
+    background-color: #1e0b368e;
+    border-radius: 10px;
+}
+
+.ak_table_card h3 {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 20px;
+
+}
+
+.ak_table_liqcard h3 {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 20px;
+
+}
+
+.ak_table_liqcard p {
+    color: #656975;
+    font-size: 14px;
+
+}
+
+.ak_table_card1 {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 20px;
+
+}
+
+.ak_table_card2 {
+    font-size: 20px;
+    float: right;
+    color: #656975;
+    font-size: 14px;
+
+}
+
+.ak_table_card input {
+    background-color: #1E0B36;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: #656975;
+}
+
+.ak_aboutsection_head {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 35px;
+}
+
+.ak_aboutsection_para {
+    color: #656975;
+    font-size: 14px;
+    width: 80%;
+
+}
+
+.ak_navpills_btn {
+    background-color: #1e0b36 !important;
+    border-radius: 10px !important;
+    font-size: 14px;
+    color: #656975 !important;
+    height: 50px;
+    width: 140px;
+}
+
+.ak_teamdetail_heading {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 20px;
+
+}
+
+.ak_teamhead_1 {
+    color: white;
+    font-weight: 300;
+}
+
+.ak_teamhead_2 {
+    color: #656975;
+    font-weight: 300;
+}
+
+.ak_teamdetail_btn button {
+    background-color: #de068d;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.ak_ref_row {
+    padding-right: 0 !important;
+}
+
+.ak_ref_row2 {
+    padding-left: 0 !important;
+}
+
+.ak_ref_btn {
+    background-color: #de068d;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.ak_ref_btn a {
+    color: white;
+    font-weight: 600;
+}
+
+.ak_teamdetail_btn a {
+    color: white;
+    font-weight: 600;
+}
+
+.ak_random {
+    margin-top: -15px;
+}
+
+.ak_teamdetail_btn2 button {
+
+    background-color: #1e0b36;
+    padding: 14px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    color: gray;
+
+    border-radius: 10px;
+}
+
+.ak_teamdetail_btn2 a {
+    color: #5B5867;
+    font-weight: 500;
+}
+
+.ak_teamdetail_input input {
+    width: 100%;
+    border: none;
+    background-color: #1E0B36;
+    padding: 18px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.ak_teamview_btn, .ak_teamview_btn:hover {
+    background-color: #e0018c;
+    padding: 10px 22px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+.ak_teamview_btn2, .ak_teamview_btn2:hover {
+    background-color: #e0018c;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 13px;
+}
+
+
+/* Stack Page 3 */
+.ak_stack3_heading {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-top: 25px;
+    line-height: 25px;
+}
+
+.ak_btn_stack3 {
+    background-color: #1e0b36;
+
+    color: #656975;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 20px;
+    width: 48%;
+
+
+}
+
+.ak_btn_stack4 {
+    background-color: #1e0b36;
+
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding: 20px;
+    width: 48%;
+
+
+
+}
+
+.ak_btn_stack3 a {
+    color: #656975 !important;
+
+}
+
+.ak_btn_stack4 a {
+    color: #656975 !important;
+
+}
+
+.ak-stack3_btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.for_select {
+    padding: 15px 15px;
+    background-color: #1e0b36 !important;
+    color: #5B5867;
+    border: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.for_select option {
+    border: none;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+    background-color: #1e0b36 !important;
+    color: #5B5867;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.ak_para_color {
+    color: #5B5867;
+}
+
+.ak_para_color2 {
+    color: #fefeff;
+}
+
+
+/* Liquidty section */
+.ak_stats_para {
+    text-align: center;
+    color: #5B5867;
+    width: 40%;
+
+}
+
+.ak_liq_head {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ak_liq_head_pool {
+    color: white;
+    font-family: 'Akira Expanded Demo';
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.ak_liq_para {
+    color: #5B5867;
+    font-size: 14px;
+    line-height: 5px;
+    font-weight: 600;
+}
+
+.ak_liq_para2 {
+    color: #5B5867;
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+    padding-top: 40px;
+}
+
+.btn_liq_1 {
+    background-color: #e0018c;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    max-width: 150px;
+
+}
+
+.btn_liq_2 {
+    background-color: #1E0B36;
+    color: white !important;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    max-width: 150px;
+
+}
+
+.btn_liq_1 a {
+    color: white !important;
+
+}
+
+.btn_liq_2 a {
+    color: white !important;
+
+}
+
+.btn_liq_11, .btn_liq_11:hover {
+    background-color: #e0018c;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn_liq_111, .btn_liq_111:hover {
+    background-color: #e0018c;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 34px;
+}
+
+.btn_liq_01 {
+    color: white;
+    font-weight: 500;
+}
+
+.ak_card_liq {
+    background-color: #0f0d225b !important;
+
+}
